@@ -2,17 +2,17 @@
 
 aws_region  = "us-east-1"
 environment = "dev"
-application = "cdec-frontend"
+application = "cdec-alpha-cbpb3738"
 
 # bucket_name = "my-unique-frontend-bucket"
 # force_destroy = true
 
 # Optional override; when omitted, dns_record_name is used as the CloudFront alias.
 # cloudfront_aliases  = ["www.example.com"]
-# acm_certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/..."  # must be us-east-1
+# acm_certificate_arn = "arn:aws:acm:us-east-1:397916376129:certificate/4835e885-a24a-4ec4-8d53-da6ed3e97792"  # must be us-east-1
 
 # Route 53 — creates a hosted zone by default; omit route53_zone_id to create new
 # Do not use example.com / example.net / example.org (reserved by AWS)
-dns_zone_name   = "your-domain.com"
-dns_record_name = "www.your-domain.com"
+dns_zone_name   = "devopsproject.shop"
+dns_record_name = "www.devopsproject.shop"
 # route53_zone_id = "Z1234567890ABC"  # use only for an existing zone
