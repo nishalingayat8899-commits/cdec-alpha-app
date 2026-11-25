@@ -2,7 +2,7 @@
 
 aws_region  = "eu-west-1"
 environment = "dev"
-application = "cdec-alpha-cbzpb"
+application = "cdec-alpha-terraform-state-pb37389"
 
 acm_certificate_arn = "arn:aws:acm:us-east-1:365642143872:certificate/32fac1bb-a47a-4568-a706-1f24cc8efe31"
 
