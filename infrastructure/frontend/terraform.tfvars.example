@@ -2,7 +2,7 @@
 
 aws_region  = "us-east-1"
 environment = "dev"
-application = "cdec-alpha-cbpb3738"
+application = "cdec-alpha-cbpb37389"
 
 # bucket_name = "my-unique-frontend-bucket"
 # force_destroy = true
